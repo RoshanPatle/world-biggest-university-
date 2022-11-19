@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="university.html"> <img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="university.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" id="menu-bar" onclick="showMenu()"></i>
+        </nav>
+<h1>about us </h1>
+        
+    </section>
+
+<!---------------about us ----------------->
+<section class="about-us">
+<div class="row">
+<div class="about-col">
+<h1>We are the world Largest university</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. pellentesque aliquaet turpis nulla , eleifend 
+    farcibus est sollicitudin ut. maecenas ut  venenatis ex, et dapibus purus . donec eget felis dolor . suspendisse malesuada 
+    fermentum .donex eget felis dolor. suspendisse  condimentum vestibulum ex ac cursus . nam obaretra vuverra efficutur.
+     sed oekkentesque luxtus arcu , quis finibus nibh luctus mattis.
+    </p>
+    <a href="" class="hero-btn red-btn"> EXPLORE NOW</a></div>
+<div class="about-col">
+    <img src="images/about.jpg">
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------------footer------------------------>
+<section class="footer">
+<h4>About us </h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    pellentesque aliquaet  turpis  nulla, eleifend faucibus est<br> 
+sollicitudin ut. maecenas ut venaeatis ex, et dupibus purus</p>
+<div class="icons">
+    
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>
+<p>made with <i class="fa-light fa-heart"></i> by easy tutorials</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---------javascript for toogle menu ------->
+    <script>
+        let navLinks = document.getElementById('navlinks')
+         function showMenu() {
+            navLinks.style.right = "0"
+         }
+         function hideMenu() {
+            navLinks.style.right = "-200px"
+         }
+    </script>
+</body>
+
+</html>
